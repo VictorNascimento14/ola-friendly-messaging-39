@@ -1,4 +1,3 @@
-
 import { Heart, Calendar, MapPin, Clock, Music, Gift, Camera, Mail, ArrowDown, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -57,36 +56,6 @@ const Index = () => {
     };
   }, []);
 
-  // Countdown timer
-  const [countdown, setCountdown] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
-  });
-  
-  useEffect(() => {
-    const weddingDate = new Date("October 15, 2024 16:00:00").getTime();
-    
-    const timer = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = weddingDate - now;
-      
-      setCountdown({
-        days: Math.floor(distance / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-        minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
-        seconds: Math.floor((distance % (1000 * 60)) / 1000)
-      });
-      
-      if (distance < 0) {
-        clearInterval(timer);
-      }
-    }, 1000);
-    
-    return () => clearInterval(timer);
-  }, []);
-
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -137,26 +106,6 @@ const Index = () => {
         <p className="font-serif text-lg md:text-xl text-zinc-600 max-w-2xl mb-10 animate-fade-in">
           Convidamos você para celebrar esse momento especial conosco. Sua presença tornará esse dia ainda mais inesquecível.
         </p>
-        
-        {/* Countdown Timer */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-10 animate-fade-in">
-          <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm text-center envelope-opener">
-            <span className="text-3xl md:text-4xl font-bold text-pink-400">{countdown.days}</span>
-            <p className="text-zinc-500 text-sm md:text-base">Dias</p>
-          </div>
-          <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm text-center envelope-opener">
-            <span className="text-3xl md:text-4xl font-bold text-pink-400">{countdown.hours}</span>
-            <p className="text-zinc-500 text-sm md:text-base">Horas</p>
-          </div>
-          <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm text-center envelope-opener">
-            <span className="text-3xl md:text-4xl font-bold text-pink-400">{countdown.minutes}</span>
-            <p className="text-zinc-500 text-sm md:text-base">Minutos</p>
-          </div>
-          <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm text-center envelope-opener">
-            <span className="text-3xl md:text-4xl font-bold text-pink-400">{countdown.seconds}</span>
-            <p className="text-zinc-500 text-sm md:text-base">Segundos</p>
-          </div>
-        </div>
         
         <div className="flex flex-col md:flex-row gap-6 items-center justify-center mb-12 animate-fade-in">
           <Button onClick={() => scrollToSection('confirmar')} className="bg-pink-100 text-pink-800 hover:bg-pink-200 border border-pink-200 rounded-full px-8 py-6 btn-rsvp">
@@ -239,7 +188,6 @@ const Index = () => {
             </Card>
           </div>
           
-          {/* Dress code */}
           <div className="mt-16 bg-zinc-50 p-8 rounded-lg shadow-sm w-full max-w-2xl">
             <h3 className="font-serif font-semibold text-xl mb-4 text-center text-zinc-800">Dress Code</h3>
             <p className="text-zinc-600 text-center mb-6">
@@ -267,7 +215,6 @@ const Index = () => {
             Nos conhecemos há 5 anos em uma tarde de primavera. O que começou como uma amizade, floresceu em um amor que continuamos a cultivar dia após dia. Agora, queremos celebrar esse amor e começar um novo capítulo de nossas vidas juntos.
           </p>
           
-          {/* Timeline */}
           <div className="w-full max-w-2xl mb-12">
             <div className="timeline-item pb-10">
               <h3 className="font-serif font-semibold text-xl mb-2 text-zinc-800">Primeiro Encontro</h3>
@@ -294,7 +241,6 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Photo Carousel */}
           <h3 className="font-serif font-semibold text-2xl mb-6 text-center text-zinc-800">
             Nossos Momentos
           </h3>
@@ -388,7 +334,6 @@ const Index = () => {
             </Card>
           </div>
           
-          {/* FAQ */}
           <div className="w-full max-w-2xl bg-zinc-50 p-8 rounded-lg mb-8">
             <h3 className="font-serif font-semibold text-xl mb-6 text-center text-zinc-800">Perguntas Frequentes</h3>
             
