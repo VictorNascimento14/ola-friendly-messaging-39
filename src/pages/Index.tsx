@@ -23,7 +23,6 @@ const Index = () => {
     
     // Cleanup
     return () => {
-      window.removeEventListener('scroll', handleScroll);
       elements.forEach(el => observer.unobserve(el));
     };
   }, []);
