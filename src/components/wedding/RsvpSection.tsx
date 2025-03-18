@@ -50,7 +50,7 @@ export const RsvpSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="bg-white p-8 rounded-lg shadow-sm fade-in-section">
-            <h3 className="font-serif font-semibold text-xl mb-6 text-center text-zinc-800">RSVP</h3>
+            <h3 className="font-serif font-semibold text-xl mb-6 text-center text-zinc-800">Confirme sua Presença</h3>
             
             {formStatus === 'success' ? (
               <div className="text-center py-8">
@@ -77,7 +77,7 @@ export const RsvpSection = () => {
                       <FormItem>
                         <FormLabel>Nome Completo</FormLabel>
                         <FormControl>
-                          <Input placeholder="Digite seu nome" {...field} />
+                          <Input required placeholder="Digite seu nome" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -172,7 +172,7 @@ export const RsvpSection = () => {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Mensagem para os Noivos (opcional)</FormLabel>
+                        <FormLabel>Mensagem para os Noivos</FormLabel>
                         <FormControl>
                           <Textarea
                             placeholder="Deixe uma mensagem para os noivos"
@@ -270,7 +270,7 @@ export const RsvpSection = () => {
                     <div>
                       <h4 className="font-semibold text-zinc-800 mb-2">Até quando posso confirmar presença?</h4>
                       <p className="text-zinc-600">
-                        Pedimos que confirme sua presença até o dia 15 de Setembro de 2024.
+                        Pedimos que confirme sua presença até o dia 15 de Setembro de 2026.
                       </p>
                     </div>
                   </div>

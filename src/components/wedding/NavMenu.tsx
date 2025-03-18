@@ -40,21 +40,21 @@ export const NavMenu = ({ scrollToSection }: NavMenuProps) => {
         <div className="hidden md:flex items-center space-x-8">
           <button 
             onClick={() => handleNavClick('detalhes')} 
-            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-white hover:text-pink-200'} transition-colors`}
+            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-black hover:text-pink-200'} transition-colors`}
           >
             Detalhes
           </button>
           <button 
             onClick={() => handleNavClick('historia')} 
-            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-white hover:text-pink-200'} transition-colors`}
+            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-black hover:text-pink-200'} transition-colors`}
           >
             História
           </button>
           <button 
             onClick={() => handleNavClick('confirmar')} 
-            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-white hover:text-pink-200'} transition-colors`}
+            className={`text-sm ${isScrolled ? 'text-zinc-600 hover:text-pink-500' : 'text-black hover:text-pink-200'} transition-colors`}
           >
-            RSVP
+            Confirme sua presença
           </button>
         </div>
         
@@ -89,7 +89,7 @@ export const NavMenu = ({ scrollToSection }: NavMenuProps) => {
               onClick={() => handleNavClick('confirmar')} 
               className="text-zinc-800 hover:text-pink-500 py-2 transition-colors"
             >
-              RSVP
+              Confirme sua Presença
             </button>
           </div>
         </div>

@@ -11,11 +11,11 @@ export const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
     <div className="relative h-screen flex flex-col items-center justify-center px-4 text-center hero-section">
       <div className="max-w-3xl mx-auto">
         <h1 className="font-serif text-4xl md:text-6xl mb-4 text-zinc-800 animate-fade-in hero-title">
-          Maria & João
+          Graziella & Victor
         </h1>
         <div className="w-32 h-1 bg-green-200 mx-auto mb-8 animate-fade-in"></div>
         <p className="text-lg md:text-xl text-zinc-600 mb-10 animate-fade-in">
-          15 de Outubro de 2024 • São Paulo, SP
+          30 de Setembro de 2026 • Fortaleza, CE
         </p>
         <p className="text-zinc-600 mb-10 animate-fade-in leading-relaxed max-w-xl mx-auto">
           Convidamos você para celebrar esse momento especial conosco. Sua presença tornará esse dia ainda mais inesquecível.
@@ -26,7 +26,7 @@ export const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
             Confirmar Presença <Sparkles className="ml-2" size={16} />
           </Button>
           <Button onClick={() => scrollToSection('local')} variant="outline" className="border-green-200 text-green-800 hover:bg-green-50 rounded-full px-8 py-6 btn-location">
-            Ver Local
+            <a href="https://maps.app.goo.gl/96cKPfmGJBvSBz9b6" target="_blank">Ver Local</a>
           </Button>
         </div>
         

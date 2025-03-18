@@ -73,7 +73,7 @@ body {
 
 /* Hero section */
 .hero-section {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/placeholder.svg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/public/fundo.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -90,7 +90,7 @@ body {
   z-index: -1;
 }
 
-/* Animations */
+/* Animações */
 .animate-fade-in {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
