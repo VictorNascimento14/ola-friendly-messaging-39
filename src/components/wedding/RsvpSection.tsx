@@ -187,7 +187,7 @@ export const RsvpSection = () => {
                   
                   <Button 
                     type="submit" 
-                    className="w-full bg-pink-400 hover:bg-pink-500 text-white"
+                    className="w-full bg-green-500 hover:bg-green-800 text-white"
                     disabled={formStatus === 'sending'}
                   >
                     {formStatus === 'sending' ? 'Enviando...' : 'Confirmar Presença'}
@@ -238,7 +238,7 @@ export const RsvpSection = () => {
                         <p className="text-zinc-600 mb-4">
                           Gostaríamos de ver o casamento através dos seus olhos. Por favor, use nossa hashtag nas redes sociais ou faça upload diretamente em nosso álbum compartilhado.
                         </p>
-                        <div className="font-serif text-lg text-pink-400 mb-4">#MariaEJoao2024</div>
+                        <div className="font-serif text-lg text-green-900 mb-4">#MariaEJoao2024</div>
                         <Button className="bg-green-100 text-green-800 hover:bg-green-200 border border-green-200">
                           Álbum Compartilhado
                         </Button>

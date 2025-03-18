@@ -9,7 +9,7 @@ export const Footer = () => {
           Graziella & Victor
         </h3>
         
-        <div className="w-20 h-1 bg-pink-200 mx-auto mb-8"></div>
+        <div className="w-20 h-1 bg-green-800 mx-auto mb-8"></div>
         
         <p className="flex items-center justify-center text-zinc-600 mb-6">
           <Mail className="mr-2" size={18} />

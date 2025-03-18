@@ -11,7 +11,7 @@ export const EventDetails = () => {
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 fade-in-section">
-          <Card className="border-green-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden card-hover bg-pink-50">
+          <Card className="border-green-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden card-hover bg-green-50">
             <CardContent className="p-6">
               <div className="flex items-start mb-4">
                 <Calendar className="text-pink-400 mr-3" size={24} />
@@ -51,7 +51,7 @@ export const EventDetails = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-green-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden card-hover bg-pink-50">
+          <Card className="border-green-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden card-hover bg-green-50">
             <CardContent className="p-6">
               <div className="flex items-start mb-4">
                 <Clock className="text-pink-400 mr-3" size={24} />
@@ -96,7 +96,7 @@ export const EventDetails = () => {
           </p>
           <div className="flex justify-center gap-6">
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-pink-100 mx-auto mb-2"></div>
+              <div className="w-16 h-16 rounded-full bg-green-200 mx-auto mb-2"></div>
               <p className="text-sm text-zinc-600">Mulheres: Vestido social</p>
             </div>
             <div className="text-center">
