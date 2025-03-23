@@ -34,7 +34,7 @@ export const NavMenu = ({ scrollToSection }: NavMenuProps) => {
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Heart className={`${isScrolled ? 'text-pink-400' : 'text-white'} mr-2`} size={20} />
-          <span className={`font-serif text-lg ${isScrolled ? 'text-zinc-800' : 'text-white'}`}>Maria & João</span>
+          <span className={`font-serif text-lg ${isScrolled ? 'text-zinc-800' : 'text-white'}`}>Graziella & Victor</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">

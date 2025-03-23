@@ -96,11 +96,11 @@ export const EventDetails = () => {
           </p>
           <div className="flex justify-center gap-6">
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-green-200 mx-auto mb-2"></div>
+              <div className="w-16 h-16 rounded-full mx-auto mb-2" style={{ backgroundColor: '#7FA653' }}></div>
               <p className="text-sm text-zinc-600">Mulheres: Vestido social</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-zinc-200 mx-auto mb-2"></div>
+              <div className="w-16 h-16 rounded-full bg-zinc-300 mx-auto mb-2"></div>
               <p className="text-sm text-zinc-600">Homens: Terno e gravata</p>
             </div>
           </div>
