@@ -46,32 +46,32 @@ export const OurStory = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4x1 mb-12 fade-in-section">
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-pink-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-01.jpeg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-01.jpeg" alt="" /></p>
             </div>
           </div>
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-green-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-02.jpeg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-02.jpeg" alt="" /></p>
             </div>
           </div>
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-pink-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-03.jpeg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-03.jpeg" alt="" /></p>
             </div>
           </div>
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-green-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-04.jpeg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-04.jpeg" alt="" /></p>
             </div>
           </div>
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-pink-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-05.jpeg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-05.jpeg" alt="" /></p>
             </div>
           </div>
           <div className="photo-frame overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
             <div className="relative aspect-square bg-green-100 flex items-center justify-center">
-              <p className="text-zinc-500 text-sm"><img src="/public/imagem-05.jpeg.jpg" alt="" /></p>
+              <p className="text-zinc-500 text-sm"><img src="/imagem-05.jpeg.jpg" alt="" /></p>
             </div>
           </div>
         </div>
